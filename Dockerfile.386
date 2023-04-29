@@ -1,0 +1,7 @@
+FROM base
+ENV CC   /usr/bin/i686-w64-mingw32-gcc
+ENV CGO_ENABLED 1
+ENV GOOS windows
+ENV GOARCH 386
+
+WORKDIR /code
