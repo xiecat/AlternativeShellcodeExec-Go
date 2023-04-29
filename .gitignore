@@ -1,0 +1,6 @@
+*.exe
+*.dll
+*.bin
+/hex/local-amd64.bin
+/.idea/
+/hex/calculator.bin
